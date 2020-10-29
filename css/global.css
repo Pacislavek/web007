@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #003366;
+  --color-secondary: #00478d;
+
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
