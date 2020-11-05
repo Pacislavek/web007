@@ -1,0 +1,10 @@
+/* NAVBAR */
+
+/* HEADER */
+
+#header {
+  height: 100vh;
+  background: rgb(20, 108, 201);
+  background: radial-gradient(circle, rgba(20, 108, 201, 1) 30%, rgba(51, 64, 170, 1) 100%);
+  overflow: hidden;
+}

@@ -27,33 +27,90 @@
 
 <body data-spy="scroll" data-target="#navbar-spy" data-offset="73">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#">
-    <img src="media/go_consulting_logo_dark.png" width="125px" class="d-inline-block align-top" alt="" loading="lazy">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Usługi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">O nas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Aduyt Rodo</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Wdrożenie i dokumentacja</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Kontakt</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+      <img src="media/go_consulting_logo_dark.png" width="125px" class="d-inline-block align-top mr-4" alt="" loading="lazy">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Usługi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">O nas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Aduyt Rodo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Wdrożenie i dokumentacja</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="header" style="padding-top: 77px;">
+    <div class="container-fluid">
+      <div class="row no-gutters h-100">
+        <div class="col-lg-6 h-100 d-flex flex-wrap justify-content-start align-items-center p-5">
+          <form action="#" class="text-white">
+            <h3 class="h3">Zapytaj o ofertę</h3>
+            <div class="form-wrapper">
+              <p class="p">Zostaw nam swoje dane. Skontaktujemy się z Tobą i dopasujemy ofertę do Twoich potrzeb.</p>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="Imię i nazwisko">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputPassword3" placeholder="E-mail">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <input type="number" maxlength="9" class="form-control" id="inputPassword3" placeholder="Telefon">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      <small>Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w formularzu kontaktowym, w celu kontaktu telefonicznego lub mailowego, w celu przedstawienia oferty handlowej, w związku z art. 6 ust. 1 lit. a) - dobrowolna zgoda. W każdym momencie mogę wycofać zgodę kontaktując się z Administratorem</small>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1"><small>
+                       Oświadczam, iż zapoznałem(am) się z <a href="">polityką prywatności</a> opisującą w jaki sposób Administrator - GO CONSULTING I Sp. z o. o. Sp. k. przetwarza moje dane osobowe</small>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <img src="media/business-man.png" alt="business man" class="img-fluid mr-auto">
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <!-- SCRIPTS -->
